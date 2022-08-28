@@ -1,0 +1,364 @@
+.main{
+    height: 600px;
+    width: 800px;
+  
+    background-color: rgb(227, 235, 232);
+    margin: auto;
+   
+    
+}
+
+.one{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 750px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+  
+.two{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 720px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.three{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 690px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+
+}
+.four{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 660px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.five{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 630px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.six{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.seven{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 570px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.eight{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 540px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.nine{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 510px;
+    top: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+ .ten{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 510px;
+    top: 132px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.eleven{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 510px;
+    top: 163px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twelve{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 510px;
+    top: 193px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.thirteen{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 510px;
+    top: 223px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.fourteen{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 510px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.fifteen{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 541px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.sixteen{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 573px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.seventeen{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 603px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.eighteen{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 633px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+} .nineteen{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 663px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+ .twenty{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 693px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentyone{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 723px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentytwo{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 753px;
+    top: 253px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentythree{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 754px;
+    top: 284px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentyfour{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 755px;
+    top: 315px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentyfive{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 755px;
+    top: 345px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentysix{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 755px;
+    top: 375px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentyseven{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 755px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentyeight{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 725px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.twentynine{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 693px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.thirty{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 663px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.thirtyone{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 633px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.thirtytwo{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 603px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.thirtythree{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 573px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.thirtyfour{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left:543px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+} 
+.thirtyfive{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 513px;
+    top: 403px;
+    border: 1px solid red;
+    border-radius: 10px;
+}  
+.main:hover{
+    background-color: yellow;
+}

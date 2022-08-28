@@ -1,0 +1,45 @@
+.mainpage{
+    height: 500px;
+    width: 800px;
+    background-color: brown;
+    margin: 60px;
+}
+h3{
+    padding-left: 100px;
+    height: 4px;
+}
+.first{
+    height: 100px;
+    width: 800px;
+    background-color: aqua;
+}
+a{
+    margin-left: 80px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+
+}
+.home{
+    height: 350px;
+    width: 400px;
+    position: relative;
+}
+.forth{
+    position: relative;
+    left: 400px ;
+    top: -355px;
+}
+.fifth{
+    height: 350px;
+    width: 400px;
+}
+.third{
+    position: relative;
+    left: 0px;
+    top: -359px;
+    background-color: blueviolet;
+    height: 50px;
+    width: 800px;
+}

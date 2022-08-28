@@ -1,0 +1,35 @@
+.allpage{
+    background-color: aqua;
+    margin-top: 20px;
+    margin: auto;
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    height: 900px;
+    width: 1200px; 
+}
+
+*{
+    background-color:cyan;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 3px;
+    padding-left: 30px;
+    margin: 50px;
+}
+p{
+    color: rgb(24, 23, 21);
+    background-color:rgb(238, 223, 11);
+ }
+ em{
+    color:rgb(10, 3, 0);
+    background-color: rgb(164, 127, 199);
+ }
+ h1{
+    color:aliceblue;
+    background-color: rgb(245, 12, 12);
+ }
+span {
+    color: rgb(231, 17, 9);
+    background-color:yellow ;
+ } 

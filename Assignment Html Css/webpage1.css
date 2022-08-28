@@ -1,0 +1,61 @@
+.mainpage{
+    height: 600px;
+    width: 1200px;
+    background-color: aqua;
+    background-image: url(/HTML/Image/inter.webp);
+    border: groove red;
+    border-radius: 10px;
+}
+.first{
+    text-align: right;
+    padding: 20px;
+    margin-right: 100px;
+    word-spacing: 40px; 
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+a:hover{
+    color:red;
+    text-decoration: underline red;
+}
+a:link{
+    color: blueviolet;
+}
+a:active{
+    color: rgb(199, 216, 44);
+}
+.second{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 80px;
+    word-spacing: 10px;
+    text-decoration: underline red;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.third{
+ text-align: center;
+ word-spacing: 20px;
+}
+button{
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 15px;
+    background: transparent;
+    transition: 0.3s;
+   
+    
+}
+button:hover{
+    color:aqua;  
+    transition: 0.3s;
+    background-color: yellow;
+
+}

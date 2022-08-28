@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 750px;
+    width: 1000px;
+    background-color: blueviolet;
+    margin:auto;
+}
+.header{
+    height: 150px;
+    width: 1000px;
+    background-color: aqua;
+}
+.logo{
+    height: 150px;
+    width: 200px;
+    float: left;
+    background-color: white;
+}
+.imglogo1{
+    height: 150px;
+    width: 200px;
+}
+.social{
+    height: 75px;
+    width: 1000px;
+    background-color: white;
+}
+.imgfacebook{
+    height: 75px;
+    width: 180px;
+}
+.instagram{
+    height: 75px;
+    width: 180px;
+}
+.twiter{
+    height: 75px;
+    width: 180px;
+}
+.youtube{
+    height: 75px;
+    width: 180px;
+}
+.in{
+    height: 75px;
+    width: 60px;
+}
+.imgfacebook:hover{
+    background-color: yellow;
+}
+.menu{
+    height: 75px;
+    width: 1000px;
+    background-color:white;
+}
+.menu ul li {
+    float: left;
+    display: block;
+    width: 190px;
+    background-color: red;
+   height: 65px;
+   margin-top: 5px;
+   margin-left: 7px;
+   text-align: center;
+   line-height: 65px;
+   font-size: 25px;
+    
+}
+.container{
+    height: 550px;
+    width: 1000px;
+    background-color:darksalmon;
+}
+.footer{
+    height: 50px;
+    width: 1000px;
+    background-color: violet;
+}

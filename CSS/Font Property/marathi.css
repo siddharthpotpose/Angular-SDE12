@@ -1,0 +1,43 @@
+@font-face {
+    font-family:third;
+    src: url(/CSS/font/Kruti-Dev-013.ttf);
+}
+div{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 700px;
+    height: 500px;
+    background-color: coral;
+    border-style: dotted;
+
+    
+}
+em,h1{
+     
+    font-weight: bolder;
+    font-family: third;
+    font-size: x-large;
+    text-align: center;
+    word-spacing: 20px;  
+}
+label{
+    font-family: third;
+    font-size: xx-large;
+    color: rgb(44, 164, 219);
+}
+@font-face {
+    font-family: first;
+    src: url(/CSS/font/Kruti-Dev-013.ttf);
+}
+.sid{
+    font-family: first;
+    font-size: x-large;
+    color: black;
+    
+    word-spacing: 30px;
+}
+b{
+    font-family: first;
+    color: aliceblue;
+}

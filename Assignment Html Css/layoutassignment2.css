@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainpage{
+    height: 650px;
+    width: 1400px;
+    background-color: yellowgreen;
+   
+    background-image: url(/Image/random/deskstoppic.jpg);
+}
+ul li{
+    float: left;
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    top: 20px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.form{
+    height: 200px;
+    width: 300px;
+    background-color:aliceblue;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+h3{
+    color: deeppink;
+    text-align: center;
+}
+input{
+    margin-left:50px;
+    width: 200px;
+}
+button{
+    margin-left: 100px;
+    width: 70px;
+    height: 30px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+p{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 3px; 
+}
+nav{
+    color:red;
+    padding-top: 65px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.order{
+    background-color:chartreuse;
+    border: 1px solid red;
+    width: 100px;
+    border-radius: 50px 10px 30px;
+}

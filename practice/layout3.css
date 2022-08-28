@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainpage{
+    height: 600px;
+    width: 800px;
+    background-color: yellow;
+}
+.header{
+    height: 150px;
+    width: 800px;
+    background-color: violet;
+}
+.logo{
+    height: 150px;
+    width: 200px;
+    background-color: tomato;
+    float: left;
+    
+
+}
+.social{
+    height: 75px;
+    width: 600px;
+    background-color: aqua;
+    float: right;
+    
+}
+.menu{
+    height: 75px;
+    width: 600px;
+    background-color: slategray;
+    float: right;
+}
+.menu ul li  {
+    float: left;
+    display:block;
+    width: 145px;
+    background-color: red;
+    height: 65px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 50px;
+
+    margin-left: 4px;
+}
+
+.container{
+    height: 400px;
+    width: 800px;
+    background-color: yellowgreen;
+}
+.gallery{ 
+    height: 200px;
+    width: 800px;
+    background-color: yellow;
+}
+.gallery2{
+    height: 200px;
+    width: 800px;
+    background-color:brown;
+}
+.col1{
+    height: 200px;
+    width: 195px;
+    background-color: violet;
+    float: left;
+    margin-left: 4px;
+}
+
+
+.footer{
+    height: 50px;
+    width: 800px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,53 @@
+.main{
+    height: 700px;
+    width: 800px;
+    background-color: white;
+    margin-left: 450px;
+}
+.header{
+    height: 50px;
+    width: 800px;
+    border: 1px solid grey;
+}
+.navigation{
+    height: 50px;
+    width: 800px;
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+.content{
+    height: 550px;
+    width: 200px;
+    border: 1px solid grey;
+    margin-top: 5px;
+    float: left;
+
+}
+.maincontent{
+    height: 550px;
+    width: 390px;
+    border: 1px solid grey;
+    margin-top: 5px;
+    margin-left: 205px;
+
+}
+.contenteright{
+    height: 550px;
+    width: 200px;
+    border: 1px solid grey;
+    float: right;
+    margin-top: -553px;
+    margin-right: -2px;
+}
+.footer{
+    height: 50px;
+    width: 800px;
+    border: 1px solid grey;
+    margin-top: 5px;
+
+}
+h2{
+    text-align: center;
+    color: green;
+
+}

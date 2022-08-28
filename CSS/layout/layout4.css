@@ -1,0 +1,58 @@
+.main{
+    height: 750px;
+    width: 1200px;
+    background-color: blue;
+    margin: 20px;
+}
+.header{
+    height: 50px;
+    width: 800px;
+    border: 1px solid white;
+    margin-left: 150px;
+}
+.nav{
+    height: 400px;
+    width: 150px;
+    border: 1px solid white;
+    margin-left: 150px;
+    margin-top: 5px; 
+    float: left;
+}
+.section{
+    height: 400px;
+    width: 642px;
+    border: 1px solid white;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+
+/* ==================================================== */
+
+.main-2{
+    height: 750px;
+    width: 420px;
+    background-color: blue;
+    float:right;
+    margin-top: -770px;
+}
+.header-2{
+    height: 50px;
+    width: 800px;
+    border: 1px solid white;
+}
+.nav-2{
+    height: 400px;
+    width: 200px;
+    border: 1px solid white;
+    margin-top: 5px;
+    float: left;
+}
+.section-2{
+    height: 400px;
+    width: 220px;
+    border: 1px solid white;
+    margin-left: 208px;
+    margin-top: 5px;
+
+}

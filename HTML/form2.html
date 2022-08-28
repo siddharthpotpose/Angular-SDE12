@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1 align="center">REGISTRATION FORM</h1>
+    <table align="center" border="0" bgcolor="lightgray">
+        <form action="">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="full name" required="name"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Email Address" required="email"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" placeholder="Password" required="password"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select>
+                    <option value="none" aria-placeholder="--Select the State--">--Select the State--</option>
+                    <option value="maharashtra">maharashtra</option>
+                    <option value="punjab">punjab</option>
+                    <option value="karnatak">karnatak</option>
+                    <option value="UP">UP</option>
+                    <option value="MP">MP</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" placeholder="City Name"></td>
+            </tr>
+            <tr>
+                <td>Pin Code</td>
+                <td><input type="number" placeholder="PinCode"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender" value="male">male 
+                <input type="radio" name="gender" value="female">female</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="address" id="" cols="30" rows="3" placeholder="Address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Marital Status</td>
+                <td><input type="radio" name="Marital status" value="yes"> Yes
+                <input type="radio" name="Marital status" value="No"> No 
+            </td> 
+            </tr>
+            <tr>
+                <td> Qualification</td>
+                <td><input type="checkbox" name="SSC" valu="SSC">SSC
+                    <input type="checkbox" name="HSC" value="HSC">HSC
+                    <input type="checkbox" name="GRADUATION" value="GRADUATION">GRADUATION
+                    <input type="checkbox" name="POST GRADUATION" value="POST GRADUATION">POST GRADUATION
+                    <input type="checkbox" name="PHD" value="PHD">PHD
+                </td>
+            </tr>
+            <tr>
+                <td>Any work Experience</td>
+                <td><input type="radio" name="Any work Experience" value="yes"> yes
+                <input type="radio" name="Any work Experience" value="No"> No</td>
+            </tr>
+
+            <tr>
+                <td> Job Experience  </td>
+                <td><select>
+                    <option value="-years-" aria-placeholder="-year-" >-years-</option>
+                    <option value="0 year">0 year</option>
+                    <option value="1 year">1 year</option>
+                    <option value="2 year">2 year</option>
+                    <option value="3 year">3 year</option>
+                    <option value="4 year">4 year</option>
+                    <option value="5 or Above"> 5 or Above</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Company Name</td>
+                <td><input type="text" placeholder="COMPANY NAME"></td>
+            </tr>
+            <tr>
+                <td>Upload Resume</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Upload</td>
+                <td>photo<input type="file">
+                signature<input type="file"></td>
+            </tr>
+
+            <tr align=center>
+                <td colspan="2"><button>SUBMIT</button></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

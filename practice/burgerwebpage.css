@@ -1,0 +1,734 @@
+
+.mainpage{
+    height: 650px;
+    width: 1300px;
+    background-color:white;
+    margin: auto; 
+}
+.first{
+    height: 650px;
+    width: 600px;
+    background-color: rgb(196, 3, 3);
+    
+}
+
+.header{
+    height: 50px;
+    width: 600px;
+    background-color: chocolate;
+}
+.brand{
+    height: 50px;
+    width: 100px;
+    background-color:red;
+
+}
+.brand:hover{
+    background-color:red;
+}
+h2{
+    font-family:  'Courier New', Courier, monospace;
+    text-decoration: underline black;
+    text-align: center;
+    color: white; 
+}
+h2:hover{
+    background-color: red;
+
+}
+.social{
+    height: 25px;
+    width: 500px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 20px;
+    left: 125px;
+
+}
+.social i {
+ position: relative;
+ top: 5px;
+ left: 150px;
+ margin-left: 20px;
+ color: white;
+
+}
+
+.menu {
+    height: 25px;
+    width: 500px;
+    background-color: yellow;
+    position: absolute;
+    top: 45px;
+    left: 125px;
+   
+}
+.menu:hover{
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    position: relative;
+    top: 5px;
+    left: 80px;
+    color: red;
+
+}
+a:hover{
+    color:black;
+    text-decoration: underline black;
+}
+.contain{
+    height: 300px;
+    width: 600px;
+    background-color: royalblue;
+}
+.img1{
+    height: 300px;
+    width: 600px;
+}
+h3{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+h3::first-line{
+    font-size: 40px;
+}
+p{
+    position: absolute;
+    top: 120px;
+    color: white;
+    left: 50px;
+}
+.button{
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    border: 2px solid red;
+    border-radius: 3px;
+    
+   
+}
+.order{
+    color: white;
+    background: transparent;
+    transition: 0.1s;
+   
+
+}
+.order:hover{ 
+    color: red;
+    background-color: yellow;
+    
+    transition: 0.1s;
+
+}
+select{
+    position: absolute;
+    left: 265px;
+    top: 340px;
+    border: 2px solid black;
+    background:red;
+    font-size: 15px;
+    color: white;
+    transition: 0.3s;
+    
+}
+select:hover{
+    background-color:yellow;
+   
+    
+}
+.our{
+    color: white;
+    text-align: center;
+    
+
+}
+
+.tasty{
+    height: 280px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    top: 370px;
+}
+.small1{
+    height: 280px;
+    width: 205px;
+}
+h4{
+    color: white;
+    position: absolute;
+    top: -15px;
+    left: 50px;
+    border: 2px solid red;
+}
+.tastyburger{
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    color: black;
+    font-weight: bolder;
+}
+.pizza{
+    height: 280px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: 370px;
+    left: 230px;
+}
+.small2{
+    height: 280px;
+    width: 205px;
+}
+.pizza-h4{
+    position: absolute;
+    top: -17px;
+    left: 60px;  
+}
+.burgerpizza{
+    position: absolute;
+    left: 30px;
+    top: 220px;
+    color: black;
+    font-weight: bolder;
+}
+.sandwich{
+    height: 280px;
+    width: 185px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 370px;
+    left: 435px;
+
+
+}
+.small3{
+    height: 280px;
+    width: 190px;
+    position: absolute;
+    
+}
+.burgersandwich{
+    position: absolute;
+    left: 30px;
+}
+.sandwich-p{
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    color: black;
+    font-weight: bolder;
+}
+.footer{
+    height: 20px;
+    width: 600px;
+    background-color:yellow;
+    position: absolute;
+    top: 650px;
+}
+.copy{
+    color: black;
+    position: absolute;
+    top: -15px;
+    left: 205px;
+}
+/* ========================================== */
+.second{
+    height: 650px;
+    width: 660px;
+    background-color: blueviolet;
+    position: relative;
+    top: -650px;
+    left: 620px;
+}
+.header2{
+    height: 30px;
+    width: 660px;
+    background-color: white;
+}
+legend{
+    text-align: center;
+    font-size: 18px;
+    padding-top:5px ;
+    font-weight: bolder;
+}
+.body2{
+    height: 620px;
+    width: 660px;
+    background-color:violet;
+}
+.imgfull{ 
+    height: 620px;
+    width: 660px;
+}
+.box1{
+    height: 120px;
+    width: 210px;
+    background-color: white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: relative;
+    top: -623px;
+    
+}
+.box1img{
+    height: 110px;
+    width: 200px;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    border: 1px solid darkgray;
+}
+.order1{
+    color:red;
+    background: yellow;
+    position: absolute;
+    top: 97px;
+    left: 5px;
+}
+em{
+    border: 2px solid red;
+    background-color: black;
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 2px;
+}
+ .box2{
+    height: 120px;
+    width: 210px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: relative;
+    top: -750px;
+    left: 220px;
+    
+    
+}
+.box2img{
+    height: 110px;
+    width: 200px;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    border: 1px solid darkgray;
+}
+.order2{
+    color:red;
+    background: yellow;
+    position: absolute;
+    top: 97px;
+    left: 5px;
+}
+.price2{
+    border: 2px solid red;
+    background-color: black;
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 2px;
+}
+.box3{
+     height: 120px;
+    width: 210px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: relative;
+    top: -877px;
+    left: 440px;
+}
+.box3img{
+    height: 110px;
+    width: 200px;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    border: 1px solid darkgray;
+}
+.order3{
+    color:red;
+    background: yellow;
+    position: absolute;
+    top: 97px;
+    left: 5px;
+}
+.price3{
+    border: 2px solid red;
+    background-color: black;
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 2px;
+}
+
+.box4{
+   height: 120px;
+   width: 150px;
+   background-color:white;
+   margin-left: 2px;
+   margin-top: 3px;
+   border: 2px solid grey;
+   position: relative;
+   top: -847px;
+ 
+}
+.box4img{
+    height: 80px;
+    width: 120px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+.b1{
+    position: absolute;
+    top: 85px;
+    left: 50px;
+}
+i{   
+   color: red;
+
+}
+
+.box5{
+    height: 120px;
+    width: 150px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: relative;
+    top: -973px;
+    left: 160px;
+  
+ }
+ .box5img{
+     height: 80px;
+     width: 120px;
+     position: absolute;
+     left: 15px;
+     top: 5px;
+ }
+ .b2{
+     position: absolute;
+     top: 95px;
+     left: 45px;
+ }
+ .i2{
+    color: red;
+    position: absolute;
+ }
+ 
+.box6{
+    height: 120px;
+    width: 150px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: relative;
+    top: -1100px;
+    left: 320px;
+  
+ }
+ .box6img{
+     height: 80px;
+     width: 120px;
+     position: absolute;
+     left: 15px;
+     top: 5px;
+ }
+ .b3{
+     position: absolute;
+     top: 80px;
+     left: 45px;
+ }
+ .i3{
+    color: red;
+    position: absolute;
+ }
+ 
+.box7{
+    height: 120px;
+    width: 155px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: relative;
+    top: -1225px;
+    left: 480px;
+  
+ }
+ .box7img{
+     height: 80px;
+     width: 120px;
+     position: absolute;
+     left: 15px;
+     top: 5px;
+ }
+ .b4{
+     position: absolute;
+     top: 80px;
+     left: 45px;
+ }
+ .i4{
+    color: red;
+    position: absolute;
+ }
+ /* =======================next combo==== */
+ .combo1{
+    height: 180px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    margin-left: 3px;
+    
+ }
+ .imgcombo2{
+    height: 160px;
+    width: 220px;
+ }
+ .b5{
+    position: relative;
+    left: 70px;
+    top: -5px;
+ }
+ .i5{
+    position: absolute;
+    top: 5px;
+    left: 2px;
+ }
+ .combo2{
+    height: 180px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    left: 430px;
+    margin-left: 3px;
+    
+ }
+ .imgcombo3{
+    height: 160px;
+    width: 220px;
+ }
+ .b6{
+    position: relative;
+    left: 70px;
+    top: -15px;
+ }
+ .i6{
+    position: absolute;
+    top: 5px;
+    left: 2px;
+ }
+ .ordercombo{
+    height: 180px;
+    width: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 320px;
+    left: 228px;
+ }
+ .blurimg{
+    height: 180px;
+    width: 200px;
+
+ }
+ .b7{
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 43px;
+    text-decoration: underline red;
+ }
+ .i7{ color: black;
+    position: absolute;
+    top: 56px;
+    left: 9px;
+    font-weight: bolder;
+ }
+ .centerbutton{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 140px;
+    left: 42px;
+    background-color: red;
+    width: 120px;
+    height: 25px;
+    border-radius: 2px;
+    border: none;
+    letter-spacing: 2px;
+ }
+/* ====================================== */
+
+.box11{
+    height: 120px;
+    width: 155px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: relative;
+    top: -1030px;
+    left: 1px;
+ }
+ .box11img{
+    height: 120px;
+    width: 155px;
+ }
+ .b11{
+    position: absolute;
+    top: 85px;
+    left: 50px;
+    font-weight: bolder;
+ }
+ .i11{color: white;
+    position: absolute;
+    left: 2px;
+    background-color: black;
+    border: 1px solid red;
+ }
+
+ .box12{
+    height: 120px;
+    width: 155px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: absolute;
+    top: 513px;
+    left: 165px;
+ }
+ .box12img{
+    height: 120px;
+    width: 155px;
+ }
+ .b12{
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    font-weight: bolder;
+
+ }
+ .i12{color: white;
+    position: absolute;
+    left: 2px;
+    background-color: black;
+    border: 1px solid red;
+ }
+
+
+
+ 
+ .box13{
+    height: 120px;
+    width: 155px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: absolute;
+    top: 513px;
+    left: 330px;
+ }
+
+ .box13img{
+    height: 120px;
+    width: 155px;
+
+ }
+ .b13{
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    font-weight: bolder;
+    font-weight: bolder;
+
+ }
+ .i13{color: white;
+    position: absolute;
+    left: 2px;
+    background-color: black;
+    border: 1px solid red;
+    left: 110px;
+ }
+
+ .box14{
+    height: 120px;
+    width: 155px;
+    background-color:white;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid grey;
+    position: absolute;
+    top: 513px;
+    left: 495px;
+ }
+ .box14img{
+    height: 120px;
+    width: 155px;
+ }
+ 
+ .b14{
+    position: absolute;
+    top: 105px;
+    left: 40px;
+    font-weight: bolder;
+    font-weight: bolder;
+
+ }
+ .i14{color: white;
+    position: absolute;
+    left: 2px;
+    background-color: black;
+    border: 1px solid red;
+    left: 110px;
+ }
+
+
+
+
+ .gallery1{
+    height: 30px;
+    width: 660px;
+    background-color:white;
+    position: absolute;
+    top: 160px;
+ }
+ .foodgallery{
+    position: absolute;
+    left: 180px;
+    color: black; 
+ }
+ .foodgallery{
+    color: white;
+    background-color: red;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    border: 2px solid black;
+    height: 18px;
+    width: 300px;
+    text-align: center;
+ }
+ 
+
+

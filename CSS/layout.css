@@ -1,0 +1,52 @@
+*
+.allpage{
+    height: 600px;
+    width: 1200px;
+    background-color: aquamarine;
+    background-image: url(/HTML/Image/tiger.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+
+.first{
+    height: 200px;
+    width: 1200px;
+    text-align: right;   
+
+}
+.interior{
+    color: white;
+}
+
+a{ text-decoration: none;
+    word-spacing: 25px;
+    padding-right:20px;
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color:white;
+    display: inline-block;
+    text-align: right;
+}
+.design{
+    
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    word-spacing: 20px;
+}
+.h1{
+    text-align: center;
+}
+p{
+    font-size: 9px;
+    word-spacing: 2px;
+    
+}
+.button{
+    text-align: center;
+    word-spacing: 5px;
+    padding-top: 7px;
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+
+.mainpage{
+    height: 1000px;
+    width: 850px;
+    background-color: aqua;
+    margin: auto;
+    border: 5px solid tomato;
+    border-radius: 10px;
+}
+.header{
+    height: 100px;
+    width: 850px;
+    background-color: blueviolet;
+}
+.brandimg{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+}
+.social{
+    height: 50px;
+    width: 650px;
+    background-color: chartreuse;
+    position: relative;
+    left: 300px;
+    margin: -100px;
+}
+.menu{
+    height: 50px;
+    width: 650px;
+    background-color: coral;
+    position:relative;
+    left: 200px;
+    top: 100px;
+}
+.container{
+    height: 850px;
+    width: 850px;
+    background-color: violet;
+}
+.footer{
+    height: 50px;
+    width: 850px;
+    background-color: orangered;
+}

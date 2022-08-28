@@ -1,0 +1,33 @@
+.hello{
+    background-color: aqua;
+
+}
+h1:hover{
+    background-color: red;
+}
+a:link{
+    background-color: darksalmon;
+}
+a:active{
+    background-color: aqua;
+    
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    background-color: deeppink;
+}
+p::before{
+    content: " hello ";
+}
+.h3::first-letter{
+    font-size: xx-large;
+   
+}
+h3::first-line{
+    font-style: italic;
+    text-decoration: underline red;
+
+    
+}

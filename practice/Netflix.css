@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainpage{
+    height: 640px;
+    width: 1300px;
+    background-color:black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header{
+    height: 50px;
+    width: 1300px;
+    background-color: black;
+}
+.logo{
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+}
+.header ul li {
+    display: inline-block;
+    position: relative;
+    top:-37px;
+    left: 250px;
+    margin-left: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: red;
+
+}
+i{
+    position: relative;
+    top: -53px;
+    left: 1230px;
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+}
+h5{
+    color: aliceblue;
+    position: relative;
+    top: -70px;
+    left: 1190px;
+    font-size: 15px;
+}
+h4{
+    color: aliceblue;
+    position: relative;
+    top: -88px;
+    left: 1133px;
+    font-size: 15px;
+}
+.search{
+    position: relative;
+    top: -105px;
+    left: 1080px;
+}
+.content1{
+    height: 350px;
+    width: 1300px;
+    background-color: black;
+}
+.select{
+    position: relative;
+    top: -340px;
+    background: transparent;
+    color: white;
+}
+button{
+    position: relative;
+    top: -125px;
+    width: 100px;
+    height: 25px;
+    margin-left: 1px;
+    background-color: red;
+    color: aliceblue;
+}
+.play{
+    position: relative;
+    color: aliceblue;
+    top: -122px;
+    left: -250px;
+    font-size: 20px;
+}
+button:hover{
+    background-color:burlywood;
+
+}
+.more{
+    width: 140px;
+    position: relative;
+    color: aliceblue;
+    top: -123px;
+    left:10px;
+    font-size: 15px;
+}
+.more:hover{
+    background-color: burlywood;
+}
+.morefont{
+    width: 100px;
+    position: relative;
+    color: aliceblue;
+    top: -123px;
+    left: -165px;
+    font-size: 17px;
+
+}
+.money{
+    height: 350px;
+    width: 1300px;
+}
+
+/* ========================== */
+
+.content2{
+    height: 100px;
+    width: 1300px;
+    background-color:black;  
+}
+.watch{
+    position: absolute;
+    color: aliceblue;
+    top: 390px;
+    left: 40px;
+    font-weight: bolder;
+}
+.col1{
+    height:100px;
+    width: 213px;
+    background-color:chartreuse;
+    float: left;
+    margin-left: 2px;
+}
+img{
+    height: 100px;
+    width: 213px;
+}
+
+.content3{
+    height: 100px;
+    width: 1300px;
+    background-color:black;
+    position: relative;
+    top: 40px;
+}
+.now{
+    color: aliceblue;
+    position: absolute;
+    top: -25px;
+    left: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.col2{
+    height:100px;
+    width: 213px;
+    background-color:chartreuse;
+    float: left;
+    margin-left: 2px;
+}
