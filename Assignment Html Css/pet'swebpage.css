@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 650px;
+    width: 1000px;
+    background-color: moccasin;
+    margin-left: 170px;
+}
+.header{
+    height: 50px;
+    width:1000px;
+    background-color: yellow;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+    background-color:white;
+    float: left;
+}
+.we{
+    line-height: 50px;
+    font-size: 30px;
+    color:blue;
+    
+}
+.care{
+    line-height: 50px;
+    font-size: 30px;
+    color:chartreuse;
+    
+}
+.fa-stethoscope{
+    line-height: 50px;
+    font-size: 30px;
+}
+.social{
+    height: 50px;
+    width: 850px;
+    background-color:greenyellow;
+    float: left;
+}
+.follow{
+    line-height: 50px;
+    float: right;
+    margin-right: 250px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.menu{
+    height: 35px;
+    width: 700px;
+    background-color: white;
+    position:absolute;
+    top: 40px;
+    left:385px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+    margin-left: 38px;
+}
+a:hover{
+    color: red;
+}
+.container{
+    height: 570px;
+    width: 1000px;
+    background-color: cadetblue;
+}
+.content-1{
+    height: 570px; 
+    width: 650px;
+    background-color:thistle;
+    float: left;
+}
+.set{
+    margin-top: 25px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+em{
+    font-size: 25px;
+    color:  orangered;
+}
+.yay{
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.pup{
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.name{
+    height: 25px;
+    width: 250px;
+    margin-left: 20px;
+}
+.lbs{
+    height: 25px;
+    width: 500px;
+    margin-left: 20px;
+}
+.submit{
+    height: 30px;
+    width: 70px;
+    margin-left: 245px;
+}
+.Reset{
+    height: 30px;
+    width: 70px;
+
+}
+.submit:hover{
+    background-color:violet;
+}
+.Reset:hover{
+    background-color: violet;
+}
+
+.content-2{
+    height: 570px; 
+    width: 350px;
+    background-color:rgb(112, 112, 192);
+    float: left;
+}
+.img{
+    position: relative;
+    right: 103px;
+    top: 30px;
+}
+
+
+
+.footer{
+    height: 30px;
+    width: 1000px;
+    background-color:greenyellow;
+
+}
+.copy{
+    text-align: center;
+}
