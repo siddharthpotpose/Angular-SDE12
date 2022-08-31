@@ -20,9 +20,9 @@ a:hover{
     color:red;
     text-decoration: underline red;
 }
-a:link{
+/* a:link{
     color: blueviolet;
-}
+} */
 a:active{
     color: rgb(199, 216, 44);
 }
