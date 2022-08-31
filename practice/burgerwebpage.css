@@ -8,10 +8,8 @@
 .first{
     height: 650px;
     width: 600px;
-    background-color: rgb(196, 3, 3);
-    
+    background-color: rgb(196, 3, 3); 
 }
-
 .header{
     height: 50px;
     width: 600px;
@@ -241,7 +239,9 @@ h4{
     top: -15px;
     left: 205px;
 }
-/* ========================================== */
+/* ======================= ==============first div end================================= */
+
+/* ======================================second dev start========================================= */
 .second{
     height: 650px;
     width: 660px;
@@ -290,11 +290,15 @@ legend{
     border: 1px solid darkgray;
 }
 .order1{
-    color:red;
+    color:black;
     background: yellow;
     position: absolute;
     top: 97px;
     left: 5px;
+    border-radius: 10px;
+}
+.order1:hover{
+    background-color: red;
 }
 em{
     border: 2px solid red;
@@ -360,7 +364,7 @@ em{
     border: 1px solid darkgray;
 }
 .order3{
-    color:red;
+    color:black;
     background: yellow;
     position: absolute;
     top: 97px;
@@ -565,7 +569,7 @@ i{
     font-weight: bolder;
  }
  .centerbutton{
-    color: white;
+    color: black;
     font-size: 15px;
     position: absolute;
     top: 140px;
@@ -573,10 +577,14 @@ i{
     background-color: red;
     width: 120px;
     height: 25px;
-    border-radius: 2px;
-    border: none;
+    border-radius: 10px;
+    border: 1px solid black;
     letter-spacing: 2px;
  }
+ .centerbutton:hover{
+    background-color: yellow;
+ }
+
 /* ====================================== */
 
 .box11{
@@ -635,10 +643,6 @@ i{
     background-color: black;
     border: 1px solid red;
  }
-
-
-
- 
  .box13{
     height: 120px;
     width: 155px;
@@ -703,10 +707,6 @@ i{
     border: 1px solid red;
     left: 110px;
  }
-
-
-
-
  .gallery1{
     height: 30px;
     width: 660px;
