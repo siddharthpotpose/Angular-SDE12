@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    background-color: aquamarine;
+    background-image: url(Image/random/India\ gate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    /* background-color:#16130f; */
+    background-color: rgba(95, 86, 86, 0.1);
+    display: flex;
+}
+.logo{
+    width: 15%;
+    height: 50px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: white;
+    font-size: 20px;
+
+}
+nav{
+    width: 85%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: white;
+    width: 10%;
+    position: relative;
+    left: 340px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+/* ======================================header end ======================= */
+
+/* ===========================================section start========================== */
+section{
+    width: 100%;
+    height: 600px;
+    /* background-color: aquamarine;  */
+   
+
+}
+.text-1{
+    color:white;
+    position: relative;
+    left: 43%;
+    top: 245px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+.text-2{
+    color: white;
+    position: relative;
+    left: 35%;
+    top: 245px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.text-3{
+    color: white;
+    position: relative;
+    left: 44%;
+    top: 250px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.effects{
+    position: relative;
+    /* left: 62%;
+    top: 195px; */
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.button-1{
+    position: relative;
+    left: 40%;
+    top: 260px;
+    width: 150px;
+    height: 28px;
+    border: none;
+    
+}
+.button-1:hover{
+    background-color: cyan;
+
+}
+.button-2{
+    position: relative;
+    left: 40%;
+    top: 260px;
+    width: 150px;
+    height: 28px;
+    background-color: cyan;
+    border: none;
+
+}
+.button-2:hover{
+    background: cornflowerblue;
+
+}
+
+/* ========================================section end====================================== */
+
+/* ============================animation start======================================= */
+.effects:after{
+    content: '';
+    animation:change 10s infinite linear ;
+    color: red;
+}
+@keyframes change{
+    10%{content: "MAHARASHTRA";}
+    20%{content: "KERALA";}
+    30%{content: "GOA";}
+    40%{content: "DELHI";}
+    50%{content: "GUJARAT";}
+    60%{content: "RAJASTHAN";}
+    70%{content: "MUMBAI";}
+    80%{content: "PUNE";}
+}
+

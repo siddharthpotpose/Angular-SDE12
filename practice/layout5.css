@@ -1,0 +1,14 @@
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+.header{
+    height: 100px;
+    width: 500px;
+    background-color: blueviolet;
+}
+.fa-dumbbell{
+    font-size: 50px;
+    color: white;
+}
