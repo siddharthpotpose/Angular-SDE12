@@ -5,9 +5,8 @@
 }
 .main{
     width: 100%;
-    height: 650px;
-    background-color: aquamarine;
-    background-image: url(Image/random/India\ gate.jpg);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(Image/random/new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,10 +75,11 @@ section{
     top: 245px;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 7px red;
     
     
 }
-.text-3{
+.text-3{ 
     color: white;
     position: relative;
     left: 44%;
@@ -93,7 +93,7 @@ section{
     /* left: 62%;
     top: 195px; */
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 
 }
 .button-1{
@@ -130,7 +130,7 @@ section{
 .effects:after{
     content: '';
     animation:change 10s infinite linear ;
-    color: red;
+    color: aqua;
 }
 @keyframes change{
     10%{content: "MAHARASHTRA";}
