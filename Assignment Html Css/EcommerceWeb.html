@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce Web Page</title>
     <link rel="stylesheet" href="EcommerceWeb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 
 <body>
@@ -15,15 +17,26 @@
     <header class="header">
         <div class="header-container">
             <div class="logo">
-                <h3 >SHOPSID</h3>
+                <h3 ><i class="fa-solid fa-shop"></i> SHOPSID</h3>
             </div>
             <nav class="nav">
                 <ul class="nav-links">
-                    <li><a href="#">HOME</a> </li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PRODUCTS</a></li>
-                    <li><a href="#">CART</a></li>
+                    <li><a href="#">MEN</a> </li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">KIDS</a></li>
+                    <li><a href="#">HOME & LIVING </a></li>
+                    <li><a href="#">BEAUTY</a></li>
+
+                    <!-- <li><a href="#">CART<i class="fa-solid fa-cart-shopping"></i></a> </li> -->
                 </ul>
+                <input  type="text" class="input-text" placeholder="   search for products, brands and more"> 
+                <button type="submit" class="search">search</button>
+                 <a href="#"><i class="fa-solid fa-user"></i></a>
+                 <a href="#"><i class="fa-solid fa-heart"></i></a>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p class="profile">profile</p>
+                <p class="profile">wishlist</p>
+               
             </nav>
         </div>
     </header>
@@ -48,32 +61,46 @@
     <!-- ==============================Section container end================================================================ -->
 
     <!-- ====================================== section branding start============================================== -->
-
+     <div class="deals"><h2 class="section-text-1">DEALS ON TOP BRANDS</h2></div>
     <section class="branding">
-        <h2 class="section-text-1">DEALS ON TOP BRANDS</h2>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2"><h1 class="crocs">crocs</h1> <h3 class="up">Up To 20% Off</h3></div>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2" ><h1 class="crocs">WROGN</h1> <h3 class="up">Up To 40-60% Off</h3></div>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2"><h1 class="crocs">LIBAS</h1> <h3 class="up">Up To 60% Off</h3></div>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2"><h1 class="crocs">PUMA</h1> <h3 class="up">Up To 30-50% Off</h3></div>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2"><h1 class="crocs">Roadstar</h1> <h3 class="up">Up To 40-70%  Off</h3></div></div>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2"><h1 class="crocs">ONLY</h1> <h3 class="up">Up To 30% Off</h3></div>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2"><h1 class="crocs">VISHUDH</h1> <h3 class="up">Up To 50-70% Off</h3></div>
-       <div class="box-1"><img src="Image/Ecommerce/model 1.jpeg" alt="" class="img-2"><h1 class="crocs">U.S.POLO ASSN.</h1> <h3 class="up">Up To 40-60% Off</h3></div>
+        
+       <div class="box-1"><img src="Image/brands/crocs.jpg" alt="" class="img-2"><h1 class="crocs">crocs</h1> <h3 class="up">Up To 20% Off</h3></div>
+       <div class="box-1"><img src="Image/brands/wrogn new.jpg" alt="" class="img-2" ><h1 class="crocs">WROGN</h1> <h3 class="up">Up To 40-60% Off</h3></div>
+       <div class="box-1"><img src="Image/brands/libas.jpg" alt="" class="img-2"><h1 class="crocs">LIBAS</h1> <h3 class="up">Up To 60% Off</h3></div>
+       <div class="box-1"><img src="Image/brands/puma.jpg" alt="" class="img-2"><h1 class="crocs">PUMA</h1> <h3 class="up">Up To 30-50% Off</h3></div>
+       <div class="box-1"><img src="Image/brands/roadstar.jpg" alt="" class="img-2"><h1 class="crocs">Roadstar</h1> <h3 class="up">Up To 40-70%  Off</h3></div></div>
+       <div class="box-1"><img src="Image/brands/only.jpg" alt="" class="img-2"><h1 class="crocs">ONLY</h1> <h3 class="up">Up To 30% Off</h3></div>
+       <div class="box-1"><img src="Image/brands/VISHUDH.jpg" alt="" class="img-2"><h1 class="crocs">VISHUDH</h1> <h3 class="up">Up To 50-70% Off</h3></div>
+       <div class="box-1"><img src="Image/brands/uspolo.webp" alt="" class="img-2"><h1 class="crocs">U.S.POLO ASSN.</h1> <h3 class="up">Up To 40-60% Off</h3></div>
        <section class="branding-1">
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"> <h1 class="crocs">anouk</h1> <h3 class="up">Up To 40-70% Off</h3></div>
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"><h1 class="crocs">dressberry</h1> <h3 class="up">Up To 20% Off</h3></div>
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"><h1 class="crocs">HERE&NOW</h1> <h3 class="up">Up To 30-60% Off</h3></div>
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"><h1 class="crocs">Gucci</h1> <h3 class="up">Up To 30% Off</h3></div>
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"><h1 class="crocs">H&M</h1> <h3 class="up">Up To 50% Off</h3></div>
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"><h1 class="crocs">Zara</h1> <h3 class="up">Up To 50-70% Off</h3></div>
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"><h1 class="crocs">Ray-Ban</h1> <h3 class="up">Up To 30% Off</h3></div>
-        <div class="box-2"><img src="Image/Ecommerce/both 1.jpg" alt="" class="img-2"><h1 class="crocs">FOREVER 21</h1> <h3 class="up">Up To 60% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/anouk.jpg" alt="" class="img-2"> <h1 class="crocs">anouk</h1> <h3 class="up">Up To 40-70% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/dressberry.jpg" alt="" class="img-2"><h1 class="crocs">dressberry</h1> <h3 class="up">Up To 20% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/here&now.jpg" alt="" class="img-2"><h1 class="crocs">HERE&NOW</h1> <h3 class="up">Up To 30-60% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/gucci.jpg" alt="" class="img-2"><h1 class="crocs">Gucci</h1> <h3 class="up">Up To 30% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/H&M.webp" alt="" class="img-2"><h1 class="crocs">H&M</h1> <h3 class="up">Up To 50% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/zara.jpg" alt="" class="img-2"><h1 class="crocs">Zara</h1> <h3 class="up">Up To 50-70% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/ray-ban.jpg" alt="" class="img-2"><h1 class="crocs">Ray-Ban</h1> <h3 class="up">Up To 30% Off</h3></div>
+        <div class="box-2"><img src="Image/brands/FOREVER 21.png" alt="" class="img-2"><h1 class="crocs">FOREVER 21</h1> <h3 class="up">Up To 60% Off</h3></div>
        </section>
     </section>
     <!-- =======================================section branding end=============================================================== -->
-     
-    <!-- ===============================================EXCLUSIVE BRANDS strat============================================ -->
-         <section class="exclusive-brands">
+      
+    <!-- ===============================================containt-3 strat============================================ -->
+         <section class="containt-3">
+            <i class=" containt-3-logo fa-solid fa-shop"></i>
+            <h3 class="containt-3-text-1">Welcome To Shopsid</h3>
+            <h3 class="containt-3-text-2">GET FLAT</h3>
+            <h3 class="containt-3-text-3"><span class="off-200"></span></h3>
+            <h3 class="containt-3-text-4">NEW COMERS</h3>
+            <h3 class="containt-3-text-5">OFFER!</h3>
+            <button class="for-her-1">For her</button>
+            <button class="for-him-1">For him</button>
+           
+            
+            
+            <div class="for-him"><img src="Image/Ecommerce/model boy png.png" class="model-png" alt=""></div>
+            <div class="for-her"><img src="Image/Ecommerce/png model new women.png" class="model-png-2" alt=""></div>
+            
 
          </section>
 

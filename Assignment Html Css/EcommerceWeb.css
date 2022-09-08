@@ -6,7 +6,7 @@
 .header{
     width: 100%;
     height: 50px;
-    background-color:lightgray;
+    background-color:violet;
     display: flex;
     justify-content: center;
 }
@@ -18,31 +18,85 @@
     justify-content: space-between;
 }
 .logo{
-    width: 15%;
+    width: 10%;
     height: 50px;
     /* background-color: violet; */
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.fa-shop{
+    color: red;
+    text-shadow: 1px 2px black;
 }
 .nav{
-    width: 30%;
+    width: 80%;
     height: 50px;
     /* background-color: tan; */
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    left: 250px;
+    line-height: 50px;
 
 }
 .nav-links{
     list-style: none;
-    display: flex;
-    width: 90%;
+    width: 50%;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+    display: inline-flex;
+    text-align: center;
+    gap: 30px;
 }
 a{
     color: black;
+    text-decoration: none;
+    
 }
+a:hover{
+    color: red;
+}
+
+.input-text{
+    width: 27%;
+    height: 30px;
+    position: relative;
+    left: -40px;
+}
+.search{
+    position: relative;
+    left:-35px;
+    width: 7%;
+    height: 23px;
+}
+.profile{
+    display:inline;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: -50px;
+}
+.fa-user{
+    position: relative;
+    left: 30px;
+    top: -7px;
+}
+.fa-heart{
+    position: relative;
+    left: 55px;
+    top: -7px;
+}
+.fa-bag-shopping{
+    position: relative;
+    left: 85px;
+    top: 7px;
+    font-size: 28px;
+    align-items: center;
+}
+
 
 /* ===================================header end============================================ */
 
@@ -104,6 +158,15 @@ a{
 /* ===================================Section container end============================ */
 
 /* =================================section branding start=========================================== */
+.deals{
+    height: 70px;
+    width: 100%;
+    background-color:white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid grey;
+}
 .section-text-1{
     margin-left: 20px;
     margin-bottom: 10px;
@@ -113,9 +176,10 @@ a{
 .branding{
     width: 100%;
     height: 470px;
-    background-color: white;
+    background-color:rgb(245 246 248);
     padding-top: 15px;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey ;
+    /* border: 1px solid grey; */
     
 }
 .box-1{
@@ -156,4 +220,125 @@ a{
 
 /* =================================================section branding end================================================== */
 
+/* ==========================================containt-2 start================================================= */
+
+.containt-3{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(252, 246, 246);
+}
+.for-him{
+    height: 400px;
+    width: 50%;
+    /* background-color: #ff523b; */
+    float: left;
+}
+.model-png{
+    height: 400px;
+    width: 50%;
+}
+.for-her{
+    height: 400px;
+    width: 50%;
+    /* background-color: blueviolet; */
+    float: left;
+}
+.model-png-2{
+    height: 400px;
+    width: 50%;
+    position: relative;
+    left: 310px;
+}
+.containt-3-logo{
+    color: red;
+    position: absolute;
+    left: 600px;
+    top: 1125px;
+    font-size: 40px;
+    text-shadow: 1px 5px black;
+}
+.containt-3-text-1{
+    position: absolute;
+    left: 500px;
+    top: 1180px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.containt-3-text-2{
+    position: absolute;
+    left: 550px;
+    top: 1235px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff523b;
+    text-shadow: 2px 2px black;
+}
+.containt-3-text-3{
+    position: absolute;
+    left: 440px;
+    top: 1260px;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.containt-3-text-4{
+    position: absolute;
+    left: 500px;
+    top: 1370px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #372bb9;
+}
+.containt-3-text-5{
+    position: absolute;
+    left: 560px;
+    top: 1420px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#372bb9 ;
+}
+.for-her-1{
+    width: 80px;
+    height: 25px;
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    top: 1450px;
+    border: none;
+    font-weight: bold;
+    
+}
+.for-her-1:hover{
+    background-color: #ff523b;
+}
+
+.for-him-1{
+    width: 80px;
+    height: 25px;
+    font-size: 20px;
+    position: absolute;
+    left: 910px;
+    top: 1450px;
+    border: none;
+    font-weight: bold;
+}
+.for-him-1:hover{
+    background-color: #ff523b;
+}
+.off-200::after{
+    content: '';
+    animation:change 10s infinite linear ;
+    color: #ff523b;
+    text-shadow: 2px 5px black;
+}
+@keyframes change{
+    10%{content: "100-OFF";}
+    20%{content: "200-OFF";}
+    30%{content: "300-OFF";}
+    40%{content: "400-OFF";}
+}
 
