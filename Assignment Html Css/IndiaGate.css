@@ -4,142 +4,124 @@
     box-sizing: border-box;
 }
 .main{
-    width: 100%;
-    height: 100vh;
+    height: 650px;
+    width: 1360px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(Image/random/new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .header{
-    width: 100%;
     height: 50px;
-    /* background-color:#16130f; */
+    width: 1360px;
     background-color: rgba(95, 86, 86, 0.1);
-    display: flex;
+    
 }
 .logo{
-    width: 15%;
     height: 50px;
-    /* background-color: aquamarine; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 265px;
+    
+    float: left;
+    
 }
-h3{
-    color: white;
-    font-size: 20px;
-
-}
-nav{
-    width: 85%;
+.menu{
     height: 50px;
-    /* background-color: yellowgreen; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:1100 ;
+    
 }
 a{
-    color: white;
-    width: 10%;
+    line-height: 50px;
     position: relative;
-    left: 340px;
+    left: 610px;
+    margin-left: 20px;
+    font-size: 20px;
     text-decoration: none;
+    color: white;
 }
 a:hover{
     color: red;
 }
-/* ======================================header end ======================= */
-
-/* ===========================================section start========================== */
-section{
-    width: 100%;
-    height: 600px;
-    /* background-color: aquamarine;  */
-   
-
-}
-.text-1{
-    color:white;
-    position: relative;
-    left: 43%;
-    top: 245px;
+h3{
+    text-align: center;
+    line-height: 50px;
     font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    
+    color: white;
+}
+
+/* ===================================header end============================= */
+
+/* ====================================container start============================ */
+.container{
+    height: 600px;
+    width: 1365px;
+}
+
+.text-1{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 25px;
+    color: white;
+    font-weight: 10;
 }
 .text-2{
-    color: white;
+    text-align: center;
     position: relative;
-    left: 35%;
-    top: 245px;
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 1px 2px 7px red;
-    
-    
+    top: 220px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 2px red;
 }
-.text-3{ 
-    color: white;
+.text-3{
+    text-align: center;
     position: relative;
-    left: 44%;
-    top: 250px;
+    top: 240px;
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-}
-.effects{
-    position: relative;
-    /* left: 62%;
-    top: 195px; */
-    font-size: 40px;
-    font-family: sans-serif;
-
+    color: white;
 }
 .button-1{
     position: relative;
-    left: 40%;
-    top: 260px;
-    width: 150px;
-    height: 28px;
+    left: 560px;
+    top: 250px;
+    height: 25px;
+    width: 120px;
     border: none;
     
 }
-.button-1:hover{
-    background-color: cyan;
-
-}
 .button-2{
     position: relative;
-    left: 40%;
-    top: 260px;
-    width: 150px;
-    height: 28px;
-    background-color: cyan;
+    left: 560px;
+    top: 250px;
+    height: 25px;
+    width: 120px;
     border: none;
-
+    background-color: aqua; 
+}
+.button-1:hover{
+    background-color: aqua;
 }
 .button-2:hover{
-    background: cornflowerblue;
-
+    background-color:yellowgreen;
 }
 
-/* ========================================section end====================================== */
-
-/* ============================animation start======================================= */
-.effects:after{
-    content: '';
-    animation:change 10s infinite linear ;
+/* ------------------------------------------------------------------------- 
+*/
+/* ===================================effects animation start========================== */
+.effects::after{
+    content: "";
+    animation: changes 5s infinite linear;
     color: aqua;
+    text-shadow: 2px 3px black;
 }
-@keyframes change{
-    10%{content: "MAHARASHTRA";}
-    20%{content: "KERALA";}
-    30%{content: "GOA";}
-    40%{content: "DELHI";}
-    50%{content: "GUJARAT";}
-    60%{content: "RAJASTHAN";}
-    70%{content: "MUMBAI";}
-    80%{content: "PUNE";}
+@keyframes changes{
+    10%{ content: "BANGALORE"; }
+    20%{content: "MUMBAI";}
+    30%{ content: "PUNE"; }
+    40%{content: "GOA";}
+    50%{ content: "KARNATAK"; }
+    60%{content: "GUJRAT";}
+    70%{ content: "NAGPUR"; }
+    80%{content: "DELHI";}
 }
+
 

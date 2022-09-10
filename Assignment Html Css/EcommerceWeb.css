@@ -89,11 +89,11 @@ a:hover{
     left: 55px;
     top: -7px;
 }
-.fa-bag-shopping{
+.fa-cart-shopping{
     position: relative;
     left: 85px;
     top: 7px;
-    font-size: 28px;
+    font-size: 20px;
     align-items: center;
 }
 
@@ -127,8 +127,6 @@ a:hover{
     align-items: center;
     justify-content: center;
     row-gap: 10px;
-    
- 
 }
 .text-1{
     font-size: 40px;
@@ -138,22 +136,34 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .sale{
     width: 50%;
     height: 100px;
-    font-size:60px;
+    font-size:70px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
     font-weight: bold;
-    border: 10px solid #ff523b;
+    border: 10px solid rgb(17, 16, 17);
     color: #ff523b;
-
 }
+.animationsale::after{
+    content: '';
+    animation:changes 1s infinite linear ;
+    color: red;
+    text-shadow: 2px 5px black;
+}
+
+@keyframes changes{
+    10%{content: "SALE";}
+    /* 20%{content: "SALE";}
+    30%{content: "SALE";}
+    40%{content: "SALE";} */
+}
+
 
 /* ===================================Section container end============================ */
 
@@ -180,6 +190,7 @@ a:hover{
     padding-top: 15px;
     border-bottom: 1px solid grey ;
     /* border: 1px solid grey; */
+    cursor: pointer;
     
 }
 .box-1{
@@ -329,10 +340,12 @@ a:hover{
 .for-him-1:hover{
     background-color: #ff523b;
 }
+
+
 .off-200::after{
     content: '';
     animation:change 10s infinite linear ;
-    color: #ff523b;
+    color: red;
     text-shadow: 2px 5px black;
 }
 @keyframes change{
