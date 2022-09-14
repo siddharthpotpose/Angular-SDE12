@@ -51,11 +51,22 @@
     text-align: center;
     gap: 30px;
 }
+.nav-links li>ul li{
+    display: none;
+   
+}
+.nav-links li:hover>ul li{
+    display: block;
+   
+    width: 100px;
+    background-color: #ddbab5;
+}
+
 a{
     color: black;
     text-decoration: none;
     
-}
+} 
 a:hover{
     color: red;
 }
