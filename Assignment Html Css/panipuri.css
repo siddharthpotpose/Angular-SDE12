@@ -100,6 +100,32 @@ ul li:hover{
     
 }
 
+.fa-facebook{
+    position: relative;
+    left: 120px;
+    font-size: 25px;
+}
+.fa-twitter{
+    position: relative;
+    left: 130px;
+    top: 2px;
+    font-size: 25px;
+
+}
+.fa-instagram{
+    position: relative;
+    left: 140px;
+    font-size: 25px;
+}
+.fa-github{
+    position: relative;
+    left: 150px;
+    font-size: 25px;
+}
+.fa-brands:hover{
+    color: red;
+}
+
 /* ================================header end======================= */
 
 
@@ -182,7 +208,7 @@ ul li:hover{
     10%{content: "Order Now";}
 }
 
-.footer{
+.content-1{
     height: 50px;
     width: 1350px;
     background-color: chocolate;
