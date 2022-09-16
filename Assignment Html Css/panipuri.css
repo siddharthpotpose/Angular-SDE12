@@ -4,9 +4,9 @@
     font-family: sans-serif;
 }
 .main{
-    height: 1750px;
+    height: 2300px;
     width: 1350px;
-    /* background-color: aqua; */
+    background-color: #1b1b1b; 
 }
 .header{
     height: 100px;
@@ -133,6 +133,8 @@ ul li:hover{
 
 /* ================================header end======================= */
 
+/* ===================================container start=========================================================== */
+
 
 .container{
     height: 500px;
@@ -213,6 +215,9 @@ ul li:hover{
     10%{content: "Order Now";}
 }
 
+/* =======================================container end===================================================================== */
+
+/* =================================================content-1 start================================================================= */
 .content-1{
     height: 50px;
     width: 1350px;
@@ -226,7 +231,7 @@ ul li:hover{
     font-weight: bolder;
 }
 
-/* ====================================container end=========================== */
+/* ==============================content-1 end================================= */
 
 
 /* ====================================containt-2 start========================= */
@@ -289,7 +294,7 @@ ul li:hover{
     top: 50px;
     margin-top: 30px;
     border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: 5px 5px 5px 5px greenyellow;
     
     
 }
@@ -340,4 +345,136 @@ ul li:hover{
     border: none;
     transition: 1s;
 
+}
+
+/* ============================================containt-2 end================================================================ */
+
+/* =====================================================containt-3 start============================================================ */
+.containt-3{
+    height: 500px;
+    width: 1350px;
+    background-color: #e93e21;
+    background-image: url(Image/random/shadi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.containt-3-header{
+    height:100px ;
+    width: 1350px;
+    /* background-color: aqua; */
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 50px;
+    color: #e93e21;
+    background-color: #1b1b1b;
+    opacity: 0.7;
+    margin-top: 30px;
+}
+/* .changes-1::after{
+    content: "";
+    animation: changes 2s infinite linear;
+}
+@keyframes changes{
+    10%{content:"we are takeing all kinds of social events orders like "}
+} */
+
+.text-12{
+    position: relative;
+    top: -10px;
+    font-weight: bolder;
+}
+.containt-3-form{
+    height: 300px;
+    width: 400px;
+    background-color: cadetblue;
+    position: relative;
+    left: 900px;
+    top: -310px;
+    opacity: 0.8;
+}
+.text-13{
+    text-align: center;
+    position: relative;
+    left: 130px;
+    top: 10px;
+    height: 40px;
+    width: 130px;
+    background-color: #e93e21;
+}
+
+.containt-3-b-1{
+    font-size: 18px;
+    position: absolute;
+    left: 25px;
+    top: 60px;
+}
+.contaiant-3-input-1{
+    height: 25px;
+    width: 250px;
+}
+.containt-3-b-2{
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 105px;
+}
+.contaiant-3-input-2{
+    height: 25px;
+    width: 250px;
+}
+.containt-3-b-3{
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+.contaiant-3-input-3{
+    height: 25px;
+    width: 250px;
+}
+.containt-3-b-4{
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+.contaiant-3-input-4{
+    height: 25px;
+    width: 250px;
+}
+.containt-3-button{
+    position: relative;
+    top: 130px;
+    left: 180px;
+    height: 30px;
+    width: 100px;
+}
+.containt-3-menu{
+    height: 400px;
+    width: 500px;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+
+.containt-3-text-13{
+    color: white;
+    text-decoration: underline red;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.containt-3-ol{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 20px;
+
+}
+.containt-3-ol li{
+    position: relative;
+    margin-top: 10px;
+    font-size: 25px;
+    text-shadow: 3px 2px black;
+    text-transform: capitalize;
 }
