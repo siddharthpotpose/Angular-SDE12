@@ -4,9 +4,9 @@
     font-family: sans-serif;
 }
 .main{
-    height: 2300px;
+    height: 2900px;
     width: 1350px;
-    background-color: #1b1b1b; 
+    background-color: black; 
 }
 .header{
     height: 100px;
@@ -295,6 +295,7 @@ ul li:hover{
     margin-top: 30px;
     border-radius: 25px;
     box-shadow: 5px 5px 5px 5px greenyellow;
+    overflow: hidden;
     
     
 }
@@ -303,6 +304,7 @@ ul li:hover{
     position: relative;
     top: -35px;
     left: 20px;
+    
     
     
 }
@@ -449,6 +451,12 @@ ul li:hover{
     left: 180px;
     height: 30px;
     width: 100px;
+    background-color: #e93e21;
+    border: none;
+}
+.containt-3-button:hover{
+    background-color: yellow;
+    transition: 1s;
 }
 .containt-3-menu{
     height: 400px;
@@ -478,3 +486,190 @@ ul li:hover{
     text-shadow: 3px 2px black;
     text-transform: capitalize;
 }
+
+/* ==================================================containt-3 end============================================================== */
+/* ==========================================containt-4 start========================================================= */
+.containt-4{
+    height: 650px;
+    width: 1350px;
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+.containt-4-1{
+    height: 650px;
+    width: 675px;
+    /* background-color: blueviolet; */
+    float: left;
+    
+}
+.containt-4-2{
+    height: 650px;
+    width: 675px;
+    /* background-color: chartreuse; */
+    float: left;
+}
+.containt-4-1-text-1{
+    padding-left: 50px;
+    padding-right:20px;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #e93e21;
+    font-family: fantasy;
+    text-shadow: 2px 1px black;
+    letter-spacing: 2px;
+}
+.containt-4-1-text-2{
+    position: relative;
+    left: -5px;
+    color: black;
+    font-size: 42px;
+    padding-top: 30px;
+    font-family: fantasy;
+    text-shadow: 2px 1px red;
+    letter-spacing: 2px;
+
+}
+.containt-4-1-text-3{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    word-spacing: 2px;
+    padding-right:20px;
+   
+    /* text-transform: capitalize; */
+    letter-spacing: 1px;
+    /* font-family: 'Times New Roman', Times, serif; */
+
+}
+.containt-4-1-text-4{
+    margin-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    word-spacing: 2px;
+    /* text-transform: capitalize; */
+    letter-spacing: px;
+    padding-right:20px;
+
+}
+.containt-4-1-text-5{
+    margin-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    word-spacing: 2px;
+    /* text-transform: capitalize; */
+    letter-spacing: 1px;
+    padding-right:20px;
+
+}
+.containt-4-1-text-6{
+    margin-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    word-spacing: 2px;
+    /* text-transform: capitalize; */
+    letter-spacing: 1px;
+    padding-right:20px;
+
+}
+.containt-4-1-text-7{
+    color:blueviolet;
+    text-shadow: 2px 1px black;
+    position: relative;
+    left: 1px;
+    top: 2px;
+    font-size: 22px;
+}
+.containt-4-1-text-8{
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.containt-4-1-text-9{
+    margin-left: 100px;
+    position: relative;
+    top: 15px;
+    left: -50px;
+    font-family: fantasy;
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
+    /* font-size: 15px; */
+    color: chartreuse;
+    text-transform: capitalize;
+}
+.containt-4-1-text-10{
+    font-size: 30px;
+    position: relative;
+    top: -62px;
+    left: 360px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.containt-4-1-text-11{
+    margin-left: 100px;
+    position: relative;
+    top: -55px;
+    left: 260px;
+    font-family: fantasy;
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
+    /* font-size: 15px; */
+    color: chartreuse;
+    text-transform: capitalize;
+}
+
+/* ============================================================================================ */
+
+
+.containt-4-2-img-1{
+    height: 470px;
+    width:675px ;
+    margin-top: 50px;
+    border-radius: 100px 1px 100px 1px;
+}
+.containt-4-2-text-1{
+    font-size: 30px;
+    position: relative;
+    top: 16px;
+    left: 60px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.containt-4-2-text-2{
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+    left:-35px;
+    font-family: fantasy;
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
+    /* font-size: 15px; */
+    color: chartreuse;
+    text-transform: capitalize;
+
+}
+.containt-4-2-text-3{
+    font-size: 30px;
+    position: relative;
+    top: -42px;
+    left: 390px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+
+}
+.containt-4-2-text-4{
+    margin-left: 100px;
+    position: relative;
+    top: -40px;
+    left: 297px;
+    font-family: fantasy;
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
+    /* font-size: 15px; */
+    color: chartreuse;
+    text-transform: capitalize;
+
+}
+
