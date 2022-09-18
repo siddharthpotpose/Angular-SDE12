@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 .main{
-    height: 2900px;
+    height: 3000px;
     width: 1350px;
     background-color: black; 
 }
@@ -863,3 +863,36 @@ ul li:hover{
 
 }
 
+/* ==================================================================================== */
+
+.footer{
+    height: 70px;
+    width: 1350px;
+    /* background-color: #e93e21; */
+}
+.footer-1{
+    color: white;
+    float: left;
+    margin-left:10px;
+    /* background-color: #e93e21; */
+    height: 70px;
+    width: 320px;
+    font-size: 20px;
+}
+b{
+    font-size: 20px;
+}
+h6{
+    position: relative;
+    left: -45px;
+}
+h5{
+    position: relative;
+    left: 80px;
+    top: -8px;
+    cursor: pointer;
+}
+h5:hover{
+    color: red;
+
+}
