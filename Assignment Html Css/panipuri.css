@@ -62,7 +62,7 @@ b{
 
 }
 ul li{
-    float: left;
+    float: left; 
     list-style: none;
     font-size: 20px;
     line-height: 50px;
