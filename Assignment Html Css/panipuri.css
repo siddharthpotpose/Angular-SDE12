@@ -297,12 +297,18 @@ ul li:hover{
     box-shadow: 5px 5px 5px 5px greenyellow;
     overflow: hidden; 
 }
+.containt-2-1:hover{
+    transform: scale(1.05);
+    /* border: 1px solid white; */
+
+}
 .containt-2-img-1{
     height: 300px;
     position: relative;
     top: -35px;
     left: 20px;  
 }
+
 
 .text-9{
     position: relative;

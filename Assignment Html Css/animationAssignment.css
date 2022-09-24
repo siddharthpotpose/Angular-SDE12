@@ -6,6 +6,7 @@
     height: 640px;
     width: 1300px;
     background-color: wheat;
+    cursor: pointer;
 }
 .one{
     height: 200px;
@@ -23,6 +24,7 @@
 
 .one:hover{
     background-color: yellow;
+    transform: scale(1.1);
    
 }
 h1{
@@ -98,6 +100,7 @@ button:hover{
 
 .two:hover{
     background-color: yellow;
+    transform: scale(1.1);
    
 }
 h1{
@@ -173,6 +176,7 @@ button:hover{
 
 .three:hover{
     background-color: red;
+    transform: scale(1.1);
    
 }
 h1{
