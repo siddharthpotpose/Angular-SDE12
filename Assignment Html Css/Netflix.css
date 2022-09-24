@@ -144,6 +144,10 @@ img{
     height: 100px;
     width: 213px;
 }
+img:hover{
+    transform: scale(1.2);
+    border: 5px solid white;
+}
 
 .content3{
     height: 100px;

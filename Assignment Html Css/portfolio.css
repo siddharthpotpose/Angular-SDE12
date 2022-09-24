@@ -173,4 +173,38 @@ h6{
     margin-left: 80px;
     color: wheat;
 }
+.skills{
+    position: relative;
+    left: -40px;
+    top: 160px;
+    font-size: 18px;
+    color: white;
 
+}
+.skill-1{
+    position: relative;
+    left: -138px;
+    top: 190px;
+    font-size: 18px;
+    color: white;
+}
+meter{
+    position: relative;
+    top: 192px;
+    left: -190px;
+    width: 300px;
+    
+}
+.skill-2{
+    position: relative;
+    left: -228px;
+    top: 220px;
+    font-size: 18px;
+    color: white;
+}
+.meter-2{
+    position: relative;
+    top: 204px;
+    left: -190px;
+    width: 300px;
+}

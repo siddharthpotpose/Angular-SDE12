@@ -183,6 +183,12 @@ section{
     margin-left: 5px;
     
 }
+.section-img-1:hover{
+    transform: scale(1.05);
+    border: 3px ridge red;
+    border-radius: 5px ;
+}
+
 .section-a{
     float: left;
 }
@@ -215,4 +221,8 @@ article{
     width: 100px;
     border-radius: 50px;
    margin-top: 3px;
+}
+.article-img-1:hover{
+    transform: scale(1.03);
+    border: 1px ridge red;
 }
