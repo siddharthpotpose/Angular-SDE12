@@ -1,0 +1,234 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.main{
+    height: 640px;
+    width: 1300px;
+    background-color: wheat;
+}
+.one{
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    float: left;
+    margin-left: 8px;
+    animation: changes 3s infinite;
+    margin-top: 10px;
+}
+@keyframes changes{
+    from{background-color:violet;}
+    to{background-color:red ;}
+}  
+
+.one:hover{
+    background-color: yellow;
+   
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+h2{
+    position: relative;
+    top:-20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.fa-brands{
+    font-size: 50px;
+    color: blue;
+    position: relative;
+    left: 95px;
+    top:-20px;
+}
+meter{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+.two-progress{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: -18px;
+    width: 200px;
+}
+h5{
+    font-size: 15px;
+    position: relative;
+    top: -35px;
+    text-align: center;
+}
+h6{
+    font-size: 15px;
+    position: relative;
+    top: -68px;
+    text-align: center;
+}
+button{
+    position: relative;
+    top: -95px;
+    left: 27px;
+    height: 30px;
+    width: 95px;
+    background-color: white;
+    border: none;
+    border-radius: 15px ;
+}
+button:hover{
+    background-color: green;
+}
+/* ========================================================= */
+.two{
+    height: 200px;
+    width: 250px;
+    background-color: yellowgreen;
+    float: left;
+    margin-left: 8px;
+    /* animation: changes 5s infinite; */
+    margin-top: 10px;
+}
+/* @keyframes changes{
+    from{background-color: red ;}
+    to{background-color:violet;}
+}   */
+
+.two:hover{
+    background-color: yellow;
+   
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+h2{
+    position: relative;
+    top:-20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.fa-instagram{
+    font-size: 50px;
+    color: rgb(226, 4, 160);
+    position: relative;
+    left: 95px;
+    top:-20px;
+}
+meter{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+progress{
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+    left: 22px;
+    width: 200px;
+}
+h5{
+    font-size: 15px;
+    position: relative;
+    top: -35px;
+    text-align: center;
+}
+h6{
+    font-size: 15px;
+    position: relative;
+    top: -68px;
+    text-align: center;
+}
+button{
+    position: relative;
+    top: -95px;
+    left: 27px;
+    height: 30px;
+    width: 95px;
+    background-color: white;
+    border: none;
+    border-radius: 15px ;
+}
+button:hover{
+    background-color: green;
+}
+/* ========================================================= */
+.three{
+    height: 200px;
+    width: 250px;
+    background-color:blueviolet;
+    float: left;
+    margin-left: 8px;
+    /* animation: changes 5s infinite; */
+    margin-top: 10px;
+}
+/* @keyframes changes{
+    from{background-color: red ;}
+    to{background-color:violet;}
+}   */
+
+.three:hover{
+    background-color: red;
+   
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+h2{
+    position: relative;
+    top:-20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.fa-twitter{
+    font-size: 50px;
+    color: blue;
+    position: relative;
+    left: 95px;
+    top:-20px;
+}
+meter{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+progress{
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+    left: 22px;
+    width: 200px;
+}
+h5{
+    font-size: 15px;
+    position: relative;
+    top: -35px;
+    text-align: center;
+}
+h6{
+    font-size: 15px;
+    position: relative;
+    top: -68px;
+    text-align: center;
+}
+button{
+    position: relative;
+    top: -95px;
+    left: 27px;
+    height: 30px;
+    width: 95px;
+    background-color: white;
+    border: none;
+    border-radius: 15px ;
+}
+button:hover{
+    background-color: green;
+}
+/* ========================================================= */

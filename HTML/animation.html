@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            float: left;
+            margin-left: 10px;
+            animation: changes 5s infinite;
+        }
+        @keyframes changes {
+            from { background-color:cornflowerblue;}
+            to {background-color: tomato;}
+
+        }
+        .two{
+            height: 200px;
+            width: 200px;
+            background-color:chartreuse;
+            float: left;
+            margin-left: 10px;
+            animation: change 4s infinite;
+        }
+        @keyframes change {
+            from { background-color:rgb(59, 45, 71);}
+            to {background-color:red;}
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one"> first </div>
+    <div class="two"> second</div>
+
+</body>
+</html>

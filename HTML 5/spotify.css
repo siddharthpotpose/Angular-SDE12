@@ -1,0 +1,218 @@
+*{
+    margin: 0;padding: 0;
+    text-transform: capitalize;
+}
+main{
+    height: 650px;
+    width: 1350px;
+    background-color: #151d27;
+}
+aside{
+    height: 650px;
+    width: 400px;
+    background-color: #151d27;
+    float: left;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 15px;
+    animation: change 1s infinite; 
+}
+@keyframes change{
+    from{color: red;}
+    to{color: yellow;}
+}
+h4{
+    color: blue;
+    position: relative;
+    left: 50px;
+    top: 35px;
+    font-size: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+h4:hover{
+    color: red;
+}
+thead{
+    color: white;
+    font-size:15px;
+    position: relative;
+    top: 60px;  
+}
+
+img{
+    height: 30px;
+    width: 40px;
+}
+h5{
+    font-size: 15px;
+    position: relative;
+    top: 12px;
+    left: 5px;
+}
+h5:hover{
+    color: red;
+}
+audio{
+    height: 25px;
+    width: 200px;
+    position: relative;
+    left: 125px;
+    top: -8px;
+}
+
+
+/* ==================================================================== */
+
+header{
+    height: 260px;
+    width: 950px;
+    /* background-color: beige; */
+    float: left;
+    /* background-image: url(alen\ walker\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position:relative;
+    top: -320px;
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: red;
+}
+input{
+    width: 370px;
+    height: 30px;
+    border-radius: 10px 10px ;
+    border:1px solid white;
+    position:relative;
+    top: -305px;
+    left: 110px;
+    background: transparent;
+    color: white;
+    float: left;
+}
+.header-h1{
+    position: absolute;
+    top: 80px;
+    text-shadow: 2px 1px red;
+}
+/* ==================================================================== */
+
+/* section{
+    height: 250px;
+    width: 950px;
+    background-color: blueviolet;
+    float: left;
+   
+} */
+.img-1{
+    height:320px;
+    width: 950px;
+   
+}
+h6{
+    position: absolute;
+    top: 143px;
+    left: 420px;
+    color: #346379;
+    font-size: 13px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+button{
+    height: 30px;
+    width: 110px;
+    position: relative;
+    top: -110px;
+    left: -683px;
+    border-radius: 20px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+}
+.button-1{
+    background-color: aqua;
+    cursor: pointer;
+}
+.button-1:hover{
+    background-color: yellowgreen;
+    transition: 1s;
+}
+/* ================================================================================= */
+
+section{
+    height: 240px;
+    width: 950px;
+    /* background-color: yellowgreen; */
+    float: left;
+}
+.section-text-1{
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 1px black;
+    position: relative;
+    top: -12px;
+    left: 0px;
+}
+.section-img-1{
+    height: 160px;
+    width: 150px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+    margin-left: 5px;
+    
+}
+.section-a{
+    float: left;
+}
+p{
+    position: relative;
+    left: 25px;
+    top: 0px;
+}
+p:hover{
+    color: red;
+}
+/* ================================================= */
+article{
+    height: 150px;
+    width: 950px;
+    /* background-color: aqua; */
+    float: left;
+
+}
+.article-h1{
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 1px black;
+    position: relative;
+    top:0 px;
+    left:0px;
+}
+.article-img-1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+   margin-top: 3px;
+}

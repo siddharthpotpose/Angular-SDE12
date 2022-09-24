@@ -5,7 +5,7 @@
 }
 .main{
     width: 1360px;
-    height: 630px;
+    height: 1130px;
     background-color:#faf1e9;
     border: 2px solid greenyellow;
 }
@@ -59,10 +59,9 @@ a:hover{
 /* ========================================================= */
 
 .container{
-    height:570px;
+    height:635px;
     width: 1350px;
-    background-color: ;
-    float: left;
+    background-color: yellowgreen;
     
 }
 h3{
@@ -99,21 +98,11 @@ span{
     
     /* text-decoration: underline rgb(69, 73, 72); */
 }
-.img-1{
-    height: 430px;
-    width: 1080px;
-    position: relative;
-    left: 500px;
-    top:-10px;
-     /* opacity: 0.5; */
-     /* z-index: 1; */
-   
-}
 .img-2{
-    height: 510px;
+    height: 482px;
     width: 500px;
     position: relative;
-    left: 750px;  
+    left: 780px;  
     top:-100px;
     opacity:0.8;
     /* transform: translateX(50px); */
@@ -122,6 +111,66 @@ span{
     background-size: cover;
     
 }
-.img-2:hover{
-    /* left: 100px; */
+/* .img-2:hover{
+    left: 100px;
+} */
+
+/* =============================================== */
+.container-2{
+    height: 640px;
+    width:1360px;
+    background-color:black;
+
 }
+.content-1{
+    height: 440px;
+    width: 340px;
+    /* background-color: blueviolet; */
+    position: relative;
+    left: 130px;
+    top: -90px;
+}
+.container-2-h1-1{
+    position: relative;
+    left:520px;
+    top: 90px;
+    font-size:45px;
+    text-decoration: underline;
+}
+.container-2-text-1{
+    position: relative;
+    left: 200px;
+    color: #faf1e9;
+}
+.content-1-img{
+    height: 450px;
+    width: 340px;
+}
+p{
+    color: wheat;
+    position: relative;
+    top: 100px;
+    left: 520px;
+    font-size: 20px;
+}
+h5{
+    color: #faf1e9;
+    float: left;
+    margin-left: 50px;
+    position: relative;
+    top: 110px;
+    left: 470px;
+    text-decoration: underline red;
+    font-size: 16px;
+}
+h6{
+    color: #faf1e9;
+    float: left;
+    position: relative;
+    left:195px;
+    top: 132px;
+    font-size: 15px;
+    margin-left: 80px;
+    color: wheat;
+}
+
