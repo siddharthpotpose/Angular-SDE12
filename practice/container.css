@@ -1,0 +1,44 @@
+
+.main{
+    height: 400px;
+    width: 1000px;
+    background-color:black;
+    margin: auto;
+}
+h1{
+    color: white;
+}
+.content-1{
+    height: 100px;
+    width: 1000px;
+    /* background-color: yellowgreen; */
+}
+.text-1{
+    height: 100px;
+    width: 140px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-right:20px;
+}
+h2{
+    color: white;
+}
+p{
+    color: rgb(46, 42, 42);
+    margin-top: -20px;
+}
+img{
+    height: 70px;
+    width: 100px;
+    padding-top: 15px;
+}
+button{
+    height: 30px;
+    width: 140px;
+   position: relative;
+   top: 35px;
+   background: transparent;
+   border: 1px solid white;
+   color: rgb(58, 52, 52);
+   border-radius: 10px;
+}

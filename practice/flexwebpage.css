@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 40rem;
+    width: 85rem;
+    background-color: blueviolet;
+}
+header{
+    height:4rem ;
+    width: 85rem;
+    background-color: burlywood;
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+ul li {
+    font-size: 1.7rem;
+    display:flex;
+    align-content: flex-end;
+    margin-left: 1rem;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+}
