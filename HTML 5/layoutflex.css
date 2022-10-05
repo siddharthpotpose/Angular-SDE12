@@ -37,7 +37,7 @@ header{
     background-color: yellow;
     flex-basis:85%; 
    
-}
+} 
 main{
     background-color:aquamarine;
     flex-basis: 80%;

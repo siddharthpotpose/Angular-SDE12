@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: yellowgreen;
+    height: 100vh;
+    text-align: center;
+}
+header{
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+   
+   
+}
+.logo{
+    background-color: brown;
+    flex-basis: 15%;
+    
+}
+.header-part{
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.social{
+    background-color: blue;
+    flex-basis: 10%;
+}
+.menu{
+    background-color: turquoise;
+    flex-basis: 10%;
+}
+.center{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 80%;
+}
+section{
+    background-color: beige;
+    flex-basis: 30%;
+}
+.top{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+article{
+    background-color: crimson;
+    flex-basis: 80%;
+}
+aside{
+    background-color: darkorange;
+    flex-basis: 50%;
+}
