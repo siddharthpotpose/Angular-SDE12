@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color: yellowgreen;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header{
+    background-color: brown;
+    flex-basis: 10%;
+    display: flex;
+}
+.logo{
+    background-color: aqua;
+    flex-basis: 20%;
+
+}
+.menu-part{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.navbar{
+    background-color: yellow;
+    flex-basis: 50%;
+}
+.menu{
+    background-color: rgb(233, 132, 16);
+    flex-basis: 50%;
+}
+/* ================================================= */
+main{
+    background-color: rgb(44, 39, 112);
+    flex-basis: 80%;
+    display: flex;
+    
+}
+.first-box{
+    background-color: black;
+   display: flex;
+   flex-direction: column;
+   flex-basis: 40%;
+}
+.one{
+    background-color: cornflowerblue;
+    flex-basis: 25%;
+}
+.two{
+    background-color: crimson;
+    flex-basis: 25%;
+}
+.three{
+    background-color: rgb(207, 144, 157);
+    flex-basis: 25%;
+}
+.four{
+    background-color: rgb(223, 224, 118);
+    flex-basis: 25%;
+}
+/* ============================================================ */
+.second-box{
+    background-color: violet;
+    display: flex;
+    flex-basis: 60%;
+    display: flex;
+    flex-direction:column;
+}
+.second-box-2{
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    flex-basis:50%;
+
+}
+.top{
+    background-color: burlywood;
+    flex-basis: 50%;
+
+}
+.bottom{
+    background-color: rgb(87, 53, 10);
+    flex-basis: 50%;
+    
+}
+/* ============================================================= */
+.top-1{
+    background-color: rgb(87, 177, 230);
+    flex-basis: 50%;
+
+}
+.bottom-1{
+    background-color: rgb(214, 36, 36);
+    flex-basis: 50%;
+    
+}
+/* ============================================================ */
+article{
+    background-color: darkolivegreen;
+    display: flex;
+    flex-basis:20%;
+}
+.article-box{
+    background-color: blue;
+    display: flex;
+    flex-basis: 100%;
+}
+.article-box-1{
+    background-color:  darkgoldenrod;
+    flex-basis: 50%;
+}
+.article-box-2{
+    background-color:  rgb(241, 76, 11);
+    flex-basis: 50%;
+}
+footer{
+    background-color: chartreuse;
+    flex-basis: 10%;
+}

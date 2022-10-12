@@ -1,0 +1,28 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    
+    animation-name: boxColor;
+    transition-duration: 5s;
+    /* transform: translateY(300px); */
+    /* transform: translateX(300px); */
+    /* transform: translate(300px,300px); */
+     transform: rotate(45deg);
+     
+     /* transform: scale(5,7); */
+}
+
+/* .box:hover{
+    transform: translate(300px);
+    transform: rotate(360deg);
+    background-color: red;
+} */
+
+@keyframes boxColor {
+    10%{background-color: brown;}
+    20%{background-color: yellow;}
+    30%{background-color: beige;}
+    40%{background-color: cyan;}
+    
+}

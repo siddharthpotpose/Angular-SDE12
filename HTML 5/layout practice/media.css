@@ -1,0 +1,63 @@
+main{
+    height: 600px;
+
+    /* background-color: brown; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    text-align: center;
+}
+
+section{
+    /* background-color: rgb(255, 253, 127); */
+flex-basis: 80%;
+display: flex;
+border: 1px solid black;
+
+}
+.one{
+    /* background-color: chartreuse; */
+    flex-basis: 50%;
+}
+.two{
+    background-color: rgb(231, 69, 19);
+    flex-basis: 50%;
+    /* background-image: url(alen\ walker.jpg);
+    background-size: cover; */
+}
+
+footer{
+    background-color: rgb(106, 141, 51);
+    flex-basis: 10%;
+
+}
+@media (max-width:1000px){
+     h1{
+        background-color: rgb(4, 29, 75);
+       
+     }
+     p{
+        font-size: 25px;
+     }
+       
+
+ 
+   
+}
+@media (min-width:500px) and (max-width:700px){
+     body {
+        background-color: darkgrey;
+    }
+ 
+   
+}
+@media (min-width:700px) and (max-width:1000px){
+    body {
+       background-color: rgb(175, 53, 53);
+   }
+
+  
+}

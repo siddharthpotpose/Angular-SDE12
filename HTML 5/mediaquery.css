@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 1400px;
+}
+@media all and (max-width:1200px){
+    main{
+        background-color: yellowgreen;
+    }
+}
+@media all and (max-width:900px){
+    main{
+        background-color: violet;
+    }
+}
+@media all and (max-width:600px){
+    main{
+        background-color: tomato;
+    }
+}
+@media all and (max-width:300px){
+    main{
+        background-color: chartreuse;
+    }
+}
