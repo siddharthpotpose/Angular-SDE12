@@ -1,8 +1,8 @@
 // equal - it is implicit
-// = = double wual is implicit 
+// = = double equal is implicit 
 // === triple equal is not implicit 
 // -----------------------------------------------
-// = = double wual is implicit 
+// = = double equal is implicit 
 let num1="100"
 let num2=100;
 console.log(num1==num2)

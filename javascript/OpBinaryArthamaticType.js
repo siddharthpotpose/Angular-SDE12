@@ -59,12 +59,14 @@ console.log(num1)
 // lessthan equal <=
 // not eualthan !=
 // ======================================= examole
-// 100<10 = true
-// 100>200 = true
+// 100<10 = false
+// 100>200 = false
 // 10==100 = false
 topic="relation type"
 console.log(topic)
 // =================================
+pass=100<10
+console.log(pass)
 
 greaterthan = 2000 > 1000
 console.log(greaterthan)
