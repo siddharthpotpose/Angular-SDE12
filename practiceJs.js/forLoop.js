@@ -3,7 +3,7 @@
  for (let num=1;num<=5;num++)
  console.log("print= "+num)
 //  ------------------------------------------
-let num1;
+let num1; 
 num1=10;
 for(num1;num1<=20;num1++)
 console.log("hello ="+num1)

@@ -1,0 +1,39 @@
+body{
+    background-image: url(The-Throne-of-Flame.jpg);
+}
+img{
+    height: 500px;
+    width: 200px;
+}
+.fire{
+    position: absolute;
+    top: 70px;
+    left: 135px;
+    margin-top: 50px;
+    /* background-color: violet; */
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    animation: change 5s infinite ;
+    /* transform: scale(1.5); */
+    /* animation-iteration-count:5s; */
+    /* animation-duration: 4s; */
+    
+    /* animation-delay:1s;   */
+}
+/* .fire{
+    height: 140px;
+    width: 70px;
+} */
+@keyframes change {
+
+    /* from {background-color: red;}
+    to{background-color: yellow;} */
+    10%{transform: rotate(360deg);}
+    30%{background-color:orangered;}
+    50%{translate: 1140px;}
+    60%{ transform: scale(2);}
+    70%{ background-color: orange}
+    80%{transform: scale(.9);}
+}
