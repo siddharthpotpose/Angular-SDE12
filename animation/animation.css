@@ -4,7 +4,15 @@ body{
 img{
     height: 500px;
     width: 200px;
+    transform: scale(1.2);
+    animation: png 10s infinite;
+   
 }
+ @keyframes png {
+    10%{translate: -15px;}
+ }
+
+
 .fire{
     position: absolute;
     top: 70px;
@@ -26,7 +34,7 @@ img{
     height: 140px;
     width: 70px;
 } */
-@keyframes change {
+@keyframes change { 
 
     /* from {background-color: red;}
     to{background-color: yellow;} */
