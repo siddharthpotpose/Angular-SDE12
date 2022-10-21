@@ -2,27 +2,44 @@
     height: 150px;
     width: 150px;
     background-color: blueviolet;
+    /* transform: translate(100px,200px); */
+    /* transform: rotate(45deg); */
+    /* transform: scaleX(1.5);
+    transform: scaleY(1.5); */
     
+    /* ------------------------------------------------------ */
+
     animation-name: boxColor;
-    transition-duration: 5s;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; 
+    /* transition-duration: 5s; */
+
     /* transform: translateY(300px); */
     /* transform: translateX(300px); */
     /* transform: translate(300px,300px); */
-     transform: rotate(45deg);
+     /* transform: rotate(45deg); */
      
      /* transform: scale(5,7); */
 }
 
-/* .box:hover{
-    transform: translate(300px);
-    transform: rotate(360deg);
-    background-color: red;
-} */
+.box:hover{
+    /* transform: scale(2);
+    transform: rotate(45deg); */
+    /* transform: skew(45deg); */
+    /* transform: translateY(300px); */
+    /* transform: rotate(360deg); */
+    /* background-color: red; */
+} 
 
-@keyframes boxColor {
+ @keyframes boxColor {
+    /* from{background-color: aqua;}
+    to{background-color: red;} */
     10%{background-color: brown;}
     20%{background-color: yellow;}
     30%{background-color: beige;}
     40%{background-color: cyan;}
+    50%{transform: rotate(45deg);}
+    80%{transform: translate(1000px);}
     
-}
+} 

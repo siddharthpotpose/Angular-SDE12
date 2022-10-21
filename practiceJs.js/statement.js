@@ -15,7 +15,7 @@ else {
     console.log("you eat nothing")
 }
 // ---------------------------------------------
-mark=63
+mark=63;
 if(mark>=90)
 {
     console.log("wow you are passed with A+ grade")
@@ -40,5 +40,18 @@ else {
     console.log("you are failed")
 }
 // --------------------------------------------------------------------
+// switch case 
+let menu=1;
+veg=1;
+non=2;
+switch (veg) {
+    case 1:
+        console.log("veg menu")
+        break;
+    case 2:
+        console.log("non veg menu")
+    default:
+        break;
+}
 
 
