@@ -196,9 +196,16 @@ meter{
     
 }
 .skill-2{
-    position: relative;
+    position: relative; 
     left: -228px;
     top: 220px;
+    font-size: 18px;
+    color: white;
+}
+.skill-3{
+    position: relative; 
+    left: -315px;
+    top: 250px;
     font-size: 18px;
     color: white;
 }
@@ -208,3 +215,144 @@ meter{
     left: -190px;
     width: 300px;
 }
+progress{
+    position: relative;
+    top: 215px;
+    left: 733px;
+    width: 300px;
+}
+/* --------------------------------------------------------- */
+.container-3{
+    background-color: violet;
+    height: 800px;
+    width: 100%;
+}
+.product-text-1{
+    position: relative;
+    top:15px;
+    left: 10px;
+    text-decoration: underline red;
+}
+.container-3-1{
+    background-color: silver;
+    height: 300px;
+    width: 280px; 
+    float: left;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.container-3-1:hover{
+    /* background-color: rgb(212, 42, 71); */
+    transition: 1s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+img{
+    height: 300px;
+    width: 280px;
+
+}
+/* -------------------------------------------------------------------------- */
+.container-4{
+    background-color: yellowgreen;
+    height: 600px;
+    width: 100%;
+}
+.contact-text-1{
+    position: relative;
+    top:70px;
+    left: 50px;
+    /* text-decoration: underline; */
+    text-shadow: 4px 2px white;
+}
+.contact-text-2{
+    position: relative;
+    left: 60px;
+    top: 130px;
+    text-decoration: underline;
+    color: white;
+}
+.contact-text-3{
+    position: relative;
+    left: 60px;
+    top: 150px;
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+
+}
+.contact-text-4{
+    position: relative;
+    left: 60px;
+    top: 110px;
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+    text-shadow: 2px 1px white;
+    text-decoration: underline;
+}
+.fa-solid{
+    color: red;
+}
+.fa-brands{
+    position: relative;
+    top: 145px;
+    left: 55px;
+    font-size: 24px;
+    margin-left: 5px;
+    color: white;
+}
+.fa-brands:hover{
+    color: red;
+
+}
+.button-2{
+    position: relative;
+    left:-100px;
+    top: 200px;
+    width: 200px;
+    height: 40px;
+    color:white;
+    background-color: red;
+    border: none;
+}
+input{
+    position: relative;
+    left: 335px;
+    top: -40px;
+    height: 30px;
+    width: 500px;
+    margin-top: 20px;
+    border: none;
+}
+.input-2{
+    position: relative;
+    left: 700px;
+    top: -40px;
+    height: 30px;
+    width: 500px;
+    margin-top: 20px;
+    border: none;
+}
+textarea{
+    position: relative;
+    left: 700px;
+    top: -40px;
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+    border: none;
+}
+button{
+    position: relative;
+    left: 700px;
+    top: -20px;
+    height: 30px;
+    width: 100px;
+}
+
+
+

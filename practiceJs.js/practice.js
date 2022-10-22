@@ -156,7 +156,49 @@ else{
     console.log("you are fail")
 }
 //  ----------------------------------------------------
-for (p=1 ; p<=40 ; p=p+2)
+for (p=1 ; p<=10 ; p++){
 
-console.log(p)
+    if(p%2==0){
+        console.log("even number ="+p)
+    }
+    else {
+        console.log("odd number ="+p)
+    }
+}
+// ---------------------------------------------
+// for (s=1;s<=20;s=s+2) for odd number 
+for (s=1;s<=10;s++)
+{ 
+    console.log("this is a even number ="+s*2)
+}
+// ---------------------------------------------------------
+// odd and even both 
+for (f=1;f<=15;f++){
+    if(f%2==0){
+        console.log("even number ="+f)
+    }
+    else{
+        console.log("odd number ="+f)
+    }
+}
+// ------------------------------------------------
+// while loop 
+let e=10
+while(e<=20){
+    
+    console.log("hello ="+e)
+    e++
+} 
+// --------------------------------------
+let r=10;
+do{
+    msg=prompt("do you want continue yes/no")
+    console.log("welcome = "+msg)
+    r++
+}while(r<=20)
+// -----------------------------------------
+
+
+
+
 

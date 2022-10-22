@@ -60,10 +60,10 @@ let his=91                                          // any one condition is fals
 result=mark>hindi && mark>marathi && mark>sci && mark>math && mark>his
 console.log(result)
 //------------------------------------------------
-num=90
+num=50
  hindi =55
  marathi=50
- sci=45                 
+ sci=10                 
  math=60
  his=80                                        // all condition is true is true
 result=num>hindi && num>marathi && num>sci && num>math && num>his
