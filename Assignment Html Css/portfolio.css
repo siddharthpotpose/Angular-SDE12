@@ -223,9 +223,15 @@ progress{
 }
 /* --------------------------------------------------------- */
 .container-3{
-    background-color: violet;
+    background-color: wheat;
     height: 800px;
     width: 100%;
+    animation: change 2s infinite;
+    
+}
+@keyframes change {
+    from{background-color:lightgreen;}
+    to{background-color: rosybrown;}
 }
 .product-text-1{
     position: relative;
@@ -369,6 +375,7 @@ button:hover{
     background-color: red;
     color: white;
 }
+/* ------------------------------------------------------------------------ */
 
 
 

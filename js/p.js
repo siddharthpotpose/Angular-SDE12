@@ -30,11 +30,11 @@ sid(5,5)
 // ------------------------------------------
 // return function 
 
-function mul(num3,num4){
-    return num3*num4
-}
-let total=mul(50,2)
-console.log(total)
+// function mul(num3,num4){
+//     return num3*num4
+// }
+// let total=mul(50,2)
+// console.log(total)
 // ----------------------------------------------
 
 // print a odd numbers using function 
@@ -64,19 +64,61 @@ ss(1)
 // ---------------------------------------------------------------
 // document.write("happy diwali")
 // ---------------------------------------------------------------
-let pp=prompt("enter number ");
-let dp=prompt("enter number");
-let sp=pp-dp
-document.write("addition of two number ="+sp)
-// ------------------------------------------------------------------
-  function arpan(){
+// let pp=prompt("enter number ");
+// let dp=prompt("enter number");
+// let sp=pp-dp
+// document.write("addition of two number ="+sp)
+// // ------------------------------------------------------------------
+//   function arpan(){
 
-    let math=document.getElementById("num1").value
-    let sci=document.getElementById("num2").value
-    let result=math-sci
-    document.write("substraction ="+result)
+//     let math=document.getElementById("num1").value
+//     let sci=document.getElementById("num2").value
+//     let result=math-sci
+//     document.write("substraction ="+result)
 
-  }
+//   }
+
+
+// simple function 
+function fun(num,num1){
+    return num-num1
+}
+
+console.log("sub="+fun(25,20))
+// -----------------------------------------------
+// simple function 
+
+function functionName(){
+    console.log("hello")
+}
+functionName()
+// -----------------------------------------
+
+// parametarised function 
+
+function siddd(num11,num12) {
+    ash=num11+num12
+    console.log("addition ="+ash)
+    
+}
+siddd(50,40)
+// ----------------------------------------------------
+// return function 
+
+function ashh (num13,num14){
+    return num13*num14;
+
+}
+
+console.log("mul="+ashh(10,5))
+
+
+// -------------------------------------------------
+// alert
+alert("hello world")
+// ---------------------------------------------
+// loops 
+// for loop
 
 
 
