@@ -60,10 +60,11 @@ img{
         top: 30px;
         left: 100px;
     }
-    /* .img-2{
+    .img-2{
         position: relative;
         top: 100px;
         left: 150px;
-    } */
+        display: none;
+    }
 
 }
