@@ -58,12 +58,12 @@ img{
     .img-1{
         position: relative;
         top: 30px;
-        left: 150px;
+        left: 100px;
     }
-    .img-2{
+    /* .img-2{
         position: relative;
         top: 100px;
         left: 150px;
-    }
+    } */
 
 }
