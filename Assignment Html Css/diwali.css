@@ -26,11 +26,22 @@ h1{
     100%{color: white;}
 }
 /* ------------------------------------------------------ */
+h3{
+color: yellow;
+font-size: 50px;
+position: absolute;
+left: 600px;
+top: 55px;
+
+}
+/* ------------------------------------------------------------------- */
 h2{
     color: aliceblue;
     text-align: center;
     text-shadow: 2px 1px black;
     text-transform: capitalize;
+    position: relative;
+    top: 40px;
 }
 /* ---------------------------------------------------------- */
 img{
