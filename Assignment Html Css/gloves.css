@@ -54,7 +54,8 @@ section{
     width: 95%;
     margin: auto;
     background-color: yellowgreen;
-    background-image: url(Image/netflix/money.png);
+    /* background-image: url(Image/gloves/gloves-box-01.webp);
+    background-size: auto; */
 }
 .text-1{
     color: white;

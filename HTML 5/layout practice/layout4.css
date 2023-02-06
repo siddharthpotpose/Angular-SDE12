@@ -1,0 +1,101 @@
+main{
+    height: 90vh;
+    width: 70%;
+    background-color: yellowgreen;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+header{
+    background-color: brown;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    background-color: turquoise;
+   flex-basis: 20%;
+  
+}
+.part{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+}
+.menu{
+    background-color: slategray;
+    flex-basis: 50%;
+}
+.icon{
+    background-color: aliceblue;
+    flex-basis: 50%;
+
+}
+/* ----------------------------------------------------------- */
+section{
+    background-color: violet;
+    height: 85%;
+    display: flex;
+    
+}
+article{
+    background-color: red;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.one{
+background-color: tan;
+flex-basis: 25%;
+}
+.two{
+    background-color: rosybrown;
+    flex-basis: 25%;
+}
+/* ------------------------------------------------------- */
+.box{
+    background-color: saddlebrown;
+    display: flex;
+    flex-basis: 50%;
+}
+.three{
+    background-color: red;
+    flex-basis: 50%;
+}
+.four{
+    background-color: slateblue;
+    flex-basis: 50%;
+}
+/* ------------------------------------------------------- */
+
+aside{
+    background-color: yellow;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.aside-box{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.a-b-1{
+    background-color: navy;
+    flex-basis: 50%;
+}
+.a-b-2{
+    background-color: rgb(39, 187, 34);
+    flex-basis: 50%;
+}
+
+/* ------------------------------------------------------- */
+footer{
+    background-color: royalblue;
+    height: 6%;
+}

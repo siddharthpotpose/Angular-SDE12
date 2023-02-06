@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    text-align: center;
+}
+aside{
+    background-color:darkkhaki;
+    flex-basis:10%;
+    
+    
+}
+section{
+    background-color: red;
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: blueviolet;
+    flex-direction: column;
+    flex-basis: 20%;
+    display: flex;
+}
+.menu{
+    background-color: tomato;
+    flex-basis: 50%;
+}
+.link{
+    background-color: sandybrown;
+    flex-basis: 50%;
+}
+/* ---------------------------------------------------- */
+
+article{
+    background-color: chartreuse;
+    flex-basis: 80%;
+    display: flex;
+}
+nav{
+    background-color: plum;
+    flex-basis: 20%;
+}
+.box{
+    background-color: plum;
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    background-color: bisque;
+    flex-basis: 60%;
+}
+.bottom{
+    background-color: purple;
+    flex-basis: 40%;
+}

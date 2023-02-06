@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Image/netflix/money-h.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+/* header h1{
+    color: white;
+    margin-top: 0.8rem;
+}
+header .contain-1{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+   
+}
+header h3{
+    font-size: 3rem;
+
+} */
